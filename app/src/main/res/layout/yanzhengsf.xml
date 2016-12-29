@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hui"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light">
+
+    <ImageView
+        android:id="@+id/imgkk"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/kk" />
+
+    <TextView
+        android:id="@+id/tvwdkj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imgkk"
+        android:text="验证身份"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp" />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        >
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ve1"
+            android:text="绑定手机     1353*********"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <View
+            android:id="@+id/ve2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="10dp"
+            />
+<EditText
+    android:id="@+id/et"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="请输入验证码"
+    android:textSize="20dp"
+    android:textColor="@android:color/darker_gray"
+    android:layout_marginLeft="15dp"
+    android:background="@null"
+    android:layout_marginTop="15dp"
+    android:layout_below="@+id/ve2"
+    />
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/hqyzm"
+            android:layout_below="@id/ve2"
+            android:layout_toRightOf="@+id/et"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="359dp"
+            android:layout_height="42dp"
+            android:src="@mipmap/tijiao"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRelatedItemView">
+        <attr name="leftLineVisible" format="boolean"/>
+        <attr name="rightLineVisible" format="boolean"/>
+        <attr name="myRelatedIcon" format="reference"/>
+        <attr name="myRelatedText" format="string"/>
+    </declare-styleable>
+</resources>

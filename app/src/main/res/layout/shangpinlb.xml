@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivs"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+           />
+                       <TextView
+                android:id="@+id/tvs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你好"
+                android:layout_below="@id/ivs"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/tvs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="价格"
+                android:layout_below="@id/tvs"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10dp"
+                />
+        <TextView
+            android:id="@+id/ivs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/tvs"
+            android:text="加入购物车"
+            android:textColor="@android:color/background_light"
+            android:background="@color/cheng"
+             />
+    </RelativeLayout>
+</LinearLayout>

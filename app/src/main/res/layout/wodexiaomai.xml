@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_above="@+id/up">
+        <RelativeLayout
+            android:id="@+id/all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.zl12_1.MainActivity">
+            <RelativeLayout
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@mipmap/bg_xiaomai_top">
+                <ImageView
+                    android:id="@+id/toppic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@mipmap/icon_unlogin" />
+                <ImageView
+                    android:id="@+id/se"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/toppic"
+                    android:src="@mipmap/settings2" />
+
+                <TextView
+                    android:id="@+id/dianji2"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:text="登录 | 注册"
+                    android:textStyle="bold"
+                    android:background="@android:color/background_light"
+                    android:onClick="loginORreg"
+                    android:textColor="@color/green"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/toppic"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/have_layout"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="125dp"
+                android:visibility="visible"
+                >
+
+                <TextView
+                    android:id="@+id/tv_uname"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:text="用户名"/>
+
+                <TextView
+                    android:id="@+id/tv_isVIP"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/tv_uname"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/white"
+                    android:text="普通会员"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/tv_isVIP"
+                    android:weightSum="0.2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:text="50(清零0)积分"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_green_light"
+                        android:text="￥0.00元"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/one"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/x1"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/icon_my_xiaomai_card" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/x2"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/icon_my_xiaomai_order" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/x3"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/icon_my_xiaomai_address" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/two"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/x4"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/icon_my_xiaomai_collect" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/x5"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/icon_my_xiaomai_charge" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/x6"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/icon_my_xiaomai_safety" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/three"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/x7"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/icon_my_xiaomai_help" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/x8"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/x9"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/x"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/one"
+                android:layout_marginTop="120dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@android:color/darker_gray" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="@string/ka" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="@string/ding" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one"
+                android:layout_marginLeft="253dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="@string/address" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/two"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="@string/xin" />
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/two"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="@string/chong" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/two"
+                android:layout_marginLeft="253dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="@string/an" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/three"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="@string/bang" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

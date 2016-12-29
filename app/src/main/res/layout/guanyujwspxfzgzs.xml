@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/imgkk"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/kk" />
+
+        <TextView
+            android:id="@+id/tvwdkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgkk"
+            android:text="关于境外商品的消费者告知书"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp" />
+
+        <View
+            android:id="@+id/ve"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvwdkj"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light">
+        <TextView
+            android:id="@+id/tvhd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尊敬的我买网会员:"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvhd"
+            android:text="在您选购境外商品时，请仔细阅读以下说明："
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="我买网全球购（跨境购）所有商品的出售方及发货方均为海外商家；您在我买网全球购（跨境购）购买的境外商品等同于境外购买；您购买的一切境外商品均适用于海外原产地执行标准，包括品质、健康、安全、卫生、环保、标签标识，如果与我国的质量安全标准不同，由此产生的风险，将由您个人承担；一旦商家被发现有出售假货及非海外直采商品，我买网全球购（跨境购）有权立即与商家终止协议，并对买家进行先行赔付；由于您所购买的境外商品从中国大陆（不包括港澳台）以外的地区发出，故未加贴中文简体标签。"
+            android:textColor="@android:color/background_dark" />
+<TextView
+    android:id="@+id/tv3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="愿您享受原产地标准，祝购物愉快。"
+    android:textStyle="bold"
+    android:textColor="@android:color/background_dark"
+    android:layout_below="@+id/tv2"
+    android:layout_marginTop="10dp"
+    />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="谢谢！"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我买网全球购（跨境购）"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/tv4"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015年6月"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

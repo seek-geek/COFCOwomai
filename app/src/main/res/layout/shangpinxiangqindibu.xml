@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/background_light"
+        >
+        <include layout="@layout/shangpinxqtoubu" />
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/head_layout"
+            android:layout_above="@+id/end_layout"/>
+
+        <LinearLayout
+            android:id="@+id/end_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tv_collection"
+                android:drawableTop="@mipmap/icon_collection_normal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:onClick="love"
+                android:gravity="center"
+                android:text="收藏"/>
+
+            <TextView
+                android:id="@+id/tv_shopcar"
+                android:drawableTop="@mipmap/icon_shopping_cart_normal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:onClick="to_layout"
+                android:text="购物车"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="加入购物车"
+                android:background="@android:color/holo_green_dark"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+    </RelativeLayout>

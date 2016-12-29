@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light">
+
+            <ImageView
+                android:id="@+id/imgkk"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/kk" />
+
+            <TextView
+                android:id="@+id/tvwdkj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imgkk"
+                android:text="帮助中心"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30dp" />
+
+            <View
+                android:id="@+id/ve"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvwdkj"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="31dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/ve"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/aixin" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/img"
+                android:text="自助服务"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <View
+                android:id="@+id/ve2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="42dp"
+                android:layout_height="28dp"
+                android:layout_below="@+id/ve2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:src="@mipmap/huoche" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img2"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="10dp"
+                android:text="物流查询" />
+
+            <View
+                android:id="@+id/ve3"
+                android:layout_width="1dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/ve2"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@+id/img2"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:id="@+id/ve4"
+                android:layout_width="1dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/ve2"
+                android:layout_marginLeft="130dp"
+                android:layout_toRightOf="@+id/ve3"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:id="@+id/ve5"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/ve3"
+                android:background="@color/hui" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="28dp"
+                android:layout_height="26dp"
+                android:layout_below="@+id/ve5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/wenti" />
+
+            <TextView
+                android:id="@+id/tvw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/img3"
+                android:text="问题查询"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <View
+                android:id="@+id/ve6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvw"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvzf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve6"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="支付方式"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve6"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvzf2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve7"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="配送费收取标准"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve7"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf2"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf2"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvzf3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve8"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="蔬菜生鲜食品配送指南"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve8"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf3"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf3"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <TextView
+                android:id="@+id/tvzf4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve9"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="售后服务政策"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve9"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf4"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf4"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <TextView
+                android:id="@+id/tvzf5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="会员等级及权益"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve10"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf5"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve11"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf5"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvzf6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve11"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="积分获得说明"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve11"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf6"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf6"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvzf7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve12"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="生鲜配送范围及收费标准"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve12"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf7"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve13"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf7"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvzf8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve13"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="发票制度"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve13"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf8"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve14"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf8"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:id="@+id/tvzf9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve14"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="优惠券使用说明"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve14"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf9"
+                android:src="@mipmap/arrow_turn_right" />
+
+            <View
+                android:id="@+id/ve15"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvzf9"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvzf10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ve15"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="关于境外商品的消费者告知书"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/ve15"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tvzf10"
+                android:src="@mipmap/arrow_turn_right" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

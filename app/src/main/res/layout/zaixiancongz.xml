@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hui"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light">
+
+            <ImageView
+                android:id="@+id/imgkk"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/kk" />
+
+            <TextView
+                android:id="@+id/tvwdkj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imgkk"
+                android:text="在线充值"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvczjl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/tvwdkj"
+                android:text="充值记录"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:layout_below="@+id/tvczjl"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/dddt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/yiyi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img100"
+                android:layout_width="146dp"
+                android:layout_height="145dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/yibai" />
+
+            <TextView
+                android:id="@+id/tvzxcz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/img100"
+                android:text="在线充值：￥100.00"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvshouj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/img100"
+                android:text="售价："
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tvshouj"
+                android:text="￥100.00"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnj"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/img100"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/ev"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/btnj"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnj1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/ev"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img1002"
+                android:layout_width="146dp"
+                android:layout_height="145dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/yibai" />
+
+            <TextView
+                android:id="@+id/tvzxcz2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/img1002"
+                android:text="在线充值：￥100.00"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvshouj2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/img1002"
+                android:text="售价："
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz2"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tvshouj2"
+                android:text="￥100.00"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnj2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/img1002"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/ev2"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj2"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/btnj2"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnj12"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj2"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/ev2"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img1003"
+                android:layout_width="146dp"
+                android:layout_height="145dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/yibai" />
+
+            <TextView
+                android:id="@+id/tvzxcz3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/img1003"
+                android:text="在线充值：￥100.00"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvshouj3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/img1003"
+                android:text="售价："
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tvshouj3"
+                android:text="￥100.00"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnj3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/img1003"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/ev3"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj3"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/btnj3"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnj13"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj3"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/ev3"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img1004"
+                android:layout_width="146dp"
+                android:layout_height="145dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/yibai" />
+
+            <TextView
+                android:id="@+id/tvzxcz4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/img1004"
+                android:text="在线充值：￥100.00"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvshouj4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/img1004"
+                android:text="售价："
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvzxcz4"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tvshouj4"
+                android:text="￥100.00"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnj4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/img1004"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/ev4"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj4"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/btnj4"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnj14"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/tvshouj4"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/ev4"
+                android:background="@drawable/toum"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/rou">
+
+            <TextView
+                android:id="@+id/tvczje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="充值金额  0.00"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvzfje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvczje"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="支付金额"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textSize="15dp"
+                android:layout_below="@+id/tvczje"
+                android:layout_toRightOf="@+id/tvzfje"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7.5dp"
+                android:textColor="@android:color/holo_red_dark"
+                />
+            <ImageView
+                android:layout_width="84dp"
+                android:layout_height="37dp"
+                android:src="@mipmap/qjs"
+                android:layout_toRightOf="@+id/tvzfje"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="210dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

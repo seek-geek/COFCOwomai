@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout     android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <ImageView
+       android:id="@+id/good_imageview"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@mipmap/m1"
+       />
+
+    <com.cofcowomai.shouye.Yuandianlei
+        android:id="@+id/views2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/vp_head2"/>
+
+    <RelativeLayout
+        android:id="@+id/ve1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/views2"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/tv_good_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" " />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ve2"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_below="@+id/ve1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/qtv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="抢购价:"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-5dp"
+            android:layout_toRightOf="@+id/qtv"
+            android:text="￥23"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dtv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/etv"
+            android:text=".80"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/jtv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="135dp"
+            android:layout_toRightOf="@+id/dtv"
+            android:text="可获30.00积分"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ve2"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xve"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="数量" />
+
+        <Button
+            android:id="@+id/btnj"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tvl"
+            android:background="@drawable/toum"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/ev"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@+id/btnj"
+            android:background="@drawable/toum"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btnj1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@+id/ev"
+            android:background="@drawable/toum"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ves">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/darker_gray"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vej"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/veg">
+
+        <TextView
+            android:id="@+id/tvjg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/hong"
+            android:text="加购价"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/sxtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvjg"
+            android:text="[生鲜换购]购买生鲜商品即可到购物车参加加购换购(部分商品不参加)，数量有限换完....."
+            android:textColor="@android:color/background_dark" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/sxtv"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vemz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vej">
+
+        <TextView
+            android:id="@+id/tvmz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/hong"
+            android:text="满赠"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/tvdz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tvmz"
+            android:text="有多种满赠方案，请在购物车选择"
+            android:textColor="@android:color/background_dark" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/tvdz"
+            android:src="@mipmap/arrow_zhankai" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vemz">
+
+        <View
+            android:id="@+id/ve3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/tvmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ve3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="温馨提示"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <View
+            android:id="@+id/ve4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvmen"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/tvxaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ve4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="详细参数"
+            android:textColor="@android:color/background_dark" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvxaan"
+            android:background="@android:color/darker_gray"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vev">
+
+        <TextView
+            android:id="@+id/tvp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="评价(4)" />
+
+        <TextView
+            android:id="@+id/haotv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvp"
+            android:text="好评："
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tvbai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/haotv"
+            android:text="100%"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/tvbai"
+            android:src="@mipmap/arrow_turn_right" />
+
+        <View
+            android:id="@+id/ew"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ew"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/xx" />
+
+        <TextView
+            android:id="@+id/tvman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="芒果很好吃，很甜，性价比不错" />
+
+        <View
+            android:id="@+id/ew2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvman"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ew2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/xx" />
+
+        <TextView
+            android:id="@+id/tvman2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="芒果很好吃，很甜，性价比不错" />
+
+        <View
+            android:id="@+id/ew3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvman2"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

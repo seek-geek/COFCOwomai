@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"><!--滚动-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/fenl"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="91dp"
+                    android:layout_marginTop="20dp"
+                    android:text="分类"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:background="@color/green"
+                    />
+                <Button
+                    android:id="@+id/pinp"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:text="品牌"
+                    android:textSize="20dp"
+                    android:textColor="@color/green"
+                    android:background="@android:color/background_light"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="2dp"
+            android:background="@color/hui"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f13" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f14" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f15" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f4" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f5" />
+                <ImageView
+                    android:layout_marginLeft="22dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f6" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f7" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/f8" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f9" />
+                <ImageView
+                    android:layout_marginLeft="22dp"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@mipmap/f10" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f11" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/f12" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f13" />
+                <ImageView
+                    android:layout_marginLeft="22dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f14" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f15" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/f16" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f17" />
+                <ImageView
+                    android:layout_marginLeft="22dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f18" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f19" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/f20" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f21" />
+                <ImageView
+                    android:layout_marginLeft="22dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f22" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/f23" />
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="65dp"
+                    android:src="@mipmap/f24" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

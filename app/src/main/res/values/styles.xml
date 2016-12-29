@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wrap_fill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="fill_fill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="wrap_zero">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="zero_wrap">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="fill_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="vertical_line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+    <style name="my_related_row_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="fill_vertical_linear_layout" parent="fill_fill">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="my_related_item" parent="zero_wrap">
+        <item name="com.cofcowomai:leftLineVisible">true</item>
+    </style>
+    <style name="user_info_tv_style" parent="wrap_wrap">
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="user_integral_tv_style" parent="zero_wrap">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+</resources>

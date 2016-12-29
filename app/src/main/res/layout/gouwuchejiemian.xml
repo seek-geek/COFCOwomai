@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/hui"
+    >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:gravity="bottom"
+    >
+    <ImageView
+        android:id="@+id/imggwc"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@mipmap/gwct"
+        android:layout_marginTop="50dp"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="您的购物车是空的，马上挑选商品吧~~"
+    android:layout_below="@+id/imggwc"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="30dp"
+    />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:id="@+id/imgsb"
+            android:layout_width="144dp"
+            android:layout_height="43dp"
+            android:src="@mipmap/sbgg"
+            android:layout_marginLeft="40dp"
+            />
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="43dp"
+            android:src="@mipmap/wdsc"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imgsb"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

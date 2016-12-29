@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hui"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/imgkk"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/kk" />
+
+        <TextView
+            android:id="@+id/tvwdkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgkk"
+            android:text="生鲜配送范围及收费标准"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp" />
+
+        <View
+            android:id="@+id/ve"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvwdkj"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="380dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/tvhd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="尊敬的我买网用户:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvhd"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="中粮我买网在扩配送范围！现已开通北京市 天津市 和北省 河南省 山东省 山西省 辽宁省 黑龙江省 吉林省 内蒙古自治区 陕西省 甘肃省 青海省 上海市 江苏省 浙江省 安徽省 湖北省 江西省 福建省 广东省 广西壮族自治区 湖南省 四川省 重庆市 贵州省 云南省 海南省等共计317个城市配送服务！我们采用自建配送丶第三方配送来满足更多用户的生鲜蔬果购买需求~"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginTop="5dp"
+            android:text="注意啦~"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv2"
+            android:layout_marginTop="5dp"
+            android:text="根据业务需要生鲜蔬果第三方配送区域订单需要注意以下几点："
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.支付方式为：线上支付；"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="2.时效内由于客户原因导致未妥协，只能做退件处理；"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="3.不支持修改地址；"
+            android:layout_below="@+id/tv6"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="4.只配送覆盖区域的城区部分，超区订单只能做退件处理；"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/tv7"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/hui"
+        android:layout_marginLeft="25dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="客服电话："
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="400-005-5678"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/tv"
+            android:text="（仅收市话费）工作时间："
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:text="周一至周日 8:00-21:00 客服邮箱：tousu@womai.com"
+            android:textColor="@android:color/background_dark" />
+    </RelativeLayout>
+</LinearLayout>

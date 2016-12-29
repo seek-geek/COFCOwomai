@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/up">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/up_1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/iv_shouye"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/toolbar_icon0"/>
+            <ImageView
+                android:id="@+id/iv_soushuo"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/toolbar_icon1"/>
+            <ImageView
+                android:id="@+id/iv_fenlei"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/toolbar_icon2"/>
+            <ImageView
+                android:id="@+id/iv_guowuc"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/toolbar_icon3"/>
+
+            <ImageView
+                android:id="@+id/iv_wodexiaom"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/toolbar_icon4_selected"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/up_2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/up_1"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tit"/>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/wen"/>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/more"/>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/like"/>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/me"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

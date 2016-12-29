@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--头部布局-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/head_layout"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/back_icon_imageview"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/wm_nav_back_bg" />
+
+    <TextView
+        android:id="@+id/tv_good"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/back_icon_imageview"
+        android:gravity="center"
+        android:text="商品"
+        android:onClick="to_layout"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/good_view"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/back_icon_imageview"
+        android:layout_alignBottom="@+id/tv_good"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:id="@+id/tv_appraise"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tv_good"
+        android:gravity="center"
+        android:text="评价"
+        android:onClick="to_layout"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/appraise_view"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/tv_good"
+        android:layout_alignBottom="@+id/tv_appraise"
+        android:visibility="gone"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/lianjie" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>

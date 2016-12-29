@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hui"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light">
+
+            <ImageView
+                android:id="@+id/imgkk"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/kk" />
+
+            <TextView
+                android:id="@+id/tvwdkj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imgkk"
+                android:text="会员等级及权益"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25dp" />
+
+            <View
+                android:id="@+id/ve"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvwdkj"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/background_light">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="会员等级:"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="我买网会员分为5级：普通会员、银卡会员、金卡会员、白金卡会员、钻石卡会员，M1-M5为对应等级简称；"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="会员等级获取条件:"
+                android:textColor="@android:color/background_dark" />
+
+            <ImageView
+
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="378dp"
+                android:layout_below="@+id/tv3"
+                android:src="@mipmap/huiyuan"
+                android:layout_marginLeft="-15dp"
+                />
+            <TextView
+                android:id="@id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会员升降说明："
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_below="@+id/img1"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv4"
+                android:layout_marginLeft="10dp"
+                android:text="升级：会员达到对应等级条件后即可自动升级，无需申请;"
+                android:textColor="@android:color/background_dark"
+                />
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv5"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="降级：会员升级后，系统会自动统计从会员升级日期后1年中该会员购物金额，如不符合该等级会员条件，则会根据购物金额自动调整为对应等级会员。"
+                />
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="注： 会员等级中购物金额指会员实际支付金额（购买我买宝、我买卡、团购卡等虚拟商品金额时不统计会员升降级），不包括使用折扣券、礼品卡、现金券、满减券等支付的部分。购物金额以订单签收为准。"
+                android:layout_below="@+id/tv6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_red_dark"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/tv7"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/background_dark"
+                android:text="客服电话：400-005-5678（仅收市话费）工作时间：周一至周日 8:00-21:00 客服邮箱：tousu@womai.com"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/dtop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green">
+
+        <ImageView
+            android:id="@+id/ack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/zoujian" />
+
+        <ImageView
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/clickbg" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/green"
+            android:textColor="@android:color/background_light"
+            android:gravity="center"
+            android:text="@string/zun" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/white"
+            android:textColor="@color/green"
+            android:gravity="center"
+            android:text="@string/dun" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+        android:id="@+id/et"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="请输入手机号"
+        android:drawableLeft="@mipmap/shouji"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        />
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="请输入手机号"
+            android:drawableLeft="@mipmap/lingpai"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/et"
+            />
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/hqyzm"
+            android:layout_below="@+id/et"
+            android:layout_toRightOf="@+id/et1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/tvwx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温馨提示"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_below="@+id/et1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tvcc"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvwx"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="未注册我买账号的手机号，登录时将自动注册且代表已同意"
+            />
+        <ImageView
+            android:layout_width="334dp"
+            android:layout_height="42dp"
+            android:src="@mipmap/denglu"
+            android:layout_below="@+id/tvcc"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="23dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

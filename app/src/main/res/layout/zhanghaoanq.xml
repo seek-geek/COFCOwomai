@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hui"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/imgkk"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/kk" />
+
+        <TextView
+            android:id="@+id/tvwdkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgkk"
+            android:text="账号与安全"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30dp" />
+
+        <View
+            android:id="@id/ve1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvwdkj"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/background_dark"></View>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ve1"
+            android:text="设置支付密码"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/arrow_right"
+            android:layout_toRightOf="@+id/tv"
+            android:layout_below="@+id/ve1"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="195dp"
+            />
+        <View
+            android:id="@+id/ve2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="10dp"
+            >
+        </View>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ve2"
+            android:text="修改密码"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/arrow_right"
+            android:layout_toRightOf="@+id/tv"
+            android:layout_below="@+id/ve2"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="195dp"
+            />
+        <View
+            android:id="@+id/ve3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/tv2"
+            android:layout_marginTop="10dp"
+            >
+        </View>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ve3"
+            android:text="绑定手机"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/arrow_right"
+            android:layout_toRightOf="@+id/tv"
+            android:layout_below="@+id/ve3"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="195dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

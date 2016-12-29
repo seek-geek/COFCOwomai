@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/login_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:background="#00A54F">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:onClick="backto_mybuy"
+                android:src="@mipmap/zoujian" />
+
+            <RelativeLayout
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/login_head_shape"
+                android:padding="0.5dp">
+
+                <TextView
+                    android:id="@+id/tv_classify"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:text="账号登录"
+                    android:textColor="@android:color/holo_orange_dark" />
+
+                <TextView
+                    android:id="@+id/tv_brand"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:text="短信快捷登录"
+                    android:background="@drawable/tv_login_one_shape"
+                    android:textColor="@android:color/white" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/login_user"
+                android:hint="用户名|手机名|邮箱"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit1"
+                android:drawableLeft="@mipmap/login_pwd"
+                android:hint="请输入密码"
+                android:password="true"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/wang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit2"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/wang" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wang"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:id="@+id/btn1"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/help_center_remind_selected" />
+
+            <TextView
+            android:id="@+id/btn1_1"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/un" />
+
+            <ImageView
+                android:id="@+id/btn2"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/btn1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/womai_02_btn_big_normal" />
+
+            <TextView
+                android:id="@+id/btn2_1"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/btn1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/kuai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn2_1"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/san" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/feng"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/tencent_qq" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/tencent_wechat" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/weibo_icon" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/alipay_icon" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

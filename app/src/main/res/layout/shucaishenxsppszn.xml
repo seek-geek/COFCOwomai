@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hui"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/imgkk"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/kk" />
+
+        <TextView
+            android:id="@+id/tvwdkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgkk"
+            android:text="蔬菜生鲜食品配送指南"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp" />
+
+        <View
+            android:id="@+id/ve"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvwdkj"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="1.果蔬生鲜食品不能与其他商品同时下单，配送范围仅限北京城八区；"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:text="2.果蔬生鲜食品订单审核截止时间为每日11:00点，即11:00(含)钱生成的有效订单并且在线支付成功，出库后将在24小时内送达；11:00点后生成的订单将在48小时内送达；"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv2"
+            android:layout_marginLeft="10dp"
+            android:text="3.1000元(含)以上的货到付款订单，一般需经客服与您联系确认后方可通过审核，建议您在下单后保持您的电话或手机畅通，以免延误您的订单处理时间。"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="客服电话："
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv3"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="400-005-5678"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/tv"
+            android:text="（仅收市话费）工作时间："
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:text="周一至周日 8:00-21:00 客服邮箱：tousu@womai.com"
+            android:textColor="@android:color/background_dark" />
+    </RelativeLayout>
+</LinearLayout>

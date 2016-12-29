@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">COFCO womai</string>
+    <string name="sz">设置</string>
+    <string name="ggxx">公告信息</string>
+    <string name="yjfk">意见反馈</string>
+    <string name="bbjc">版本检测</string>
+    <string name="tskg">推送开关</string>
+    <string name="fxzh">分享账号设置</string>
+    <string name="qchc">清除缓存</string>
+    <string name="gy">关于</string>
+    <string name="kfdh">客服电话</string>
+    <string name="zouji">400-005-5678</string>
+    <string name="un">登录</string>
+    <string name="unpass">注册</string>
+    <string name="ka">我的卡券</string>
+    <string name="ding">我的订单</string>
+    <string name="address">我的地址</string>
+    <string name="xin">我的收藏</string>
+    <string name="chong">在线充值</string>
+    <string name="an">账号与安全</string>
+    <string name="bang">帮助中心</string>
+    <string name="tit">首页</string>
+    <string name="wen">搜索</string>
+    <string name="more">分类</string>
+    <string name="like">购物车</string>
+    <string name="me">我的小买</string>
+    <string name="zun">账号登录</string>
+    <string name="dun">短信快捷登录</string>
+    <string name="wang">忘记密码</string>
+    <string name="kuai">快速注册 立享优惠</string>
+    <string name="san">第三方登录</string>
+    <string name="shen">生疏鲜果</string>
+    <string name="jin">进口食品</string>
+    <string name="liang">粮油副食</string>
+    <string name="xiu">休闲零食</string>
+    <string name="muying">母婴国乳</string>
+    <string name="womai">我买团</string>
+    <string name="cong">充值省钱</string>
+    <string name="quan">全球购</string>
+    <string name="weodao">味道中国</string>
+    <string name="kajuan">卡卷中心</string>
+
+</resources>

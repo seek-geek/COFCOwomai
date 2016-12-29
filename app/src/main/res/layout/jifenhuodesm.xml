@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hui"
+    android:orientation="vertical">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:id="@+id/imgkk"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/kk" />
+
+    <TextView
+        android:id="@+id/tvwdkj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imgkk"
+        android:text="积分或得说明"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp" />
+
+    <View
+        android:id="@+id/ve"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvwdkj"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light">
+<TextView
+    android:id="@+id/tvhd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="获得方式:"
+    android:textStyle="bold"
+    android:textColor="@android:color/background_dark"
+    android:layout_marginTop="10dp"
+    />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvhd"
+            android:text="1.在我买网成功购买一件商品，即可获得我买网积分，具体数量请参考商品详情页(购买该商品，可获得X积分)；订单成功签收后到账。；"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="2.目前客户端暂不支持积分兑换。请到我买积分商城进行兑换；"
+            android:textColor="@android:color/background_dark" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@color/hui"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="客服电话："
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="400-005-5678"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/tv"
+            android:text="（仅收市话费）工作时间："
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:text="周一至周日 8:00-21:00 客服邮箱：tousu@womai.com"
+            android:textColor="@android:color/background_dark" />
+    </RelativeLayout>
+</LinearLayout>

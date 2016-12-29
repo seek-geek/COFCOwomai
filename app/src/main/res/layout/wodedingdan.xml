@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/imgkk"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/kk" />
+
+        <TextView
+            android:id="@+id/tvwdkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgkk"
+            android:text="我的订单"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hui"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="未完成"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/btn1"
+            android:background="@drawable/toum"
+            android:text="已完成"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/btn2"
+            android:background="@drawable/toum"
+            android:text="已取消"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/background_light" />
+        <ImageView
+            android:id="@+id/imgdd"
+            android:layout_width="144dp"
+            android:layout_height="212dp"
+            android:src="@mipmap/dingdand"
+            android:layout_below="@+id/btn2"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="120dp"
+            />
+        <ImageView
+            android:id="@+id/imgsb"
+            android:layout_width="144dp"
+            android:layout_height="43dp"
+            android:src="@mipmap/sbgg"
+            android:layout_below="@+id/imgdd"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            />
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="43dp"
+            android:src="@mipmap/wdsc"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/imgdd"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/imgsb"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

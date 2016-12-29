@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/vez"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/lauout"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:id="@+id/tvhp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvquan"
+            android:text="好评"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvzp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tvhp"
+            android:text="中评"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvcp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tvzp"
+            android:text="差评"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvcp"
+            android:text="有图"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvquan"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="5dp"
+            android:text="4"
+            android:textColor="@color/green"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvhp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:text="4"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvhp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="5dp"
+            android:text="0"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvhp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="5dp"
+            android:text="0"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvhp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="5dp"
+            android:text="2"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvquan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:text="全部"
+            android:textColor="@color/green"
+            android:textSize="18dp"
+            android:layout_alignBaseline="@+id/tvhp"
+            android:layout_alignBottom="@+id/tvhp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="31dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pingja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vez">
+
+        <TextView
+            android:id="@+id/tvj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="j*****"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvshij"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvj"
+            android:text="2016-07-12 17:04"
+            android:textColor="@android:color/background_dark" />
+
+        <View
+            android:id="@+id/ves"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvshij"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <ImageView
+
+            android:id="@+id/im1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ves"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/xx" />
+
+        <TextView
+            android:id="@+id/tvman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="芒果很好吃，很甜，性价比不错" />
+
+        <View
+            android:id="@+id/ves2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/tvman"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"></View>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pingja2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pingja">
+
+        <TextView
+            android:id="@+id/tvj1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="j*****"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvshij1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvj1"
+            android:text="2016-07-12 17:04"
+            android:textColor="@android:color/background_dark" />
+
+        <View
+            android:id="@+id/ves1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvshij1"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <ImageView
+
+            android:id="@+id/im11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ves1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/xx" />
+        <TextView
+            android:id="@+id/tvman1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im11"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="芒果很好吃，很甜，性价比不错" />
+        <View
+            android:id="@+id/ves21"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/tvman1"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"></View>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pingja3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pingja2">
+
+        <TextView
+            android:id="@+id/tvj2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="j*****"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp"
+
+            />
+        <TextView
+            android:id="@+id/tvshij2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvj2"
+            android:text="2016-07-12 17:04"
+            android:textColor="@android:color/background_dark" />
+
+        <View
+            android:id="@+id/ves23"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvshij2"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <ImageView
+
+            android:id="@+id/im12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ves23"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/xx" />
+
+        <TextView
+            android:id="@+id/tvman2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="芒果很好吃，很甜，性价比不错" />
+
+        <View
+            android:id="@+id/ves22"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/tvman2"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"></View>
+    </RelativeLayout>
+</RelativeLayout>
+    </ScrollView>

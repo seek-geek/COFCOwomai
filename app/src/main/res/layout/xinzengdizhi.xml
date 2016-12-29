@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hui"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/imgkk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="取消"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvwdkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgkk"
+            android:text="新增地址"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/tvshr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="收货人   "
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/tvshr"
+            android:background="@null"
+            android:text="" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_below="@+id/etv"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/background_dark"
+    >
+</View>
+        <TextView
+            android:id="@+id/tvshr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvshr"
+            android:layout_marginTop="18dp"
+            android:text="手机号码"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etv"
+            android:background="@null"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/tvshr2"
+            android:text="" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/etv2"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/background_dark"
+            ></View>
+        <TextView
+            android:id="@+id/tvshr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvshr2"
+            android:layout_marginTop="18dp"
+            android:text="所在地区"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etv2"
+            android:background="@null"
+            android:layout_marginTop="21dp"
+            android:layout_toRightOf="@+id/tvshr3"
+            android:text="" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/etv3"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/background_dark"
+            ></View>
+        <TextView
+            android:id="@+id/tvshr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvshr3"
+            android:layout_marginTop="18dp"
+            android:text="详细地址"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etv3"
+            android:background="@null"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@+id/tvshr4"
+            android:text="" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="348dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/baochunt"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="17dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
